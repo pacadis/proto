@@ -1,0 +1,11 @@
+rootProject.name = 'Problema11'
+include 'Networking'
+include 'Networking'
+include 'Server'
+include 'Server'
+include 'Server'
+include 'ServerServices'
+include 'Persistance'
+include 'Model'
+include 'AppClient'
+

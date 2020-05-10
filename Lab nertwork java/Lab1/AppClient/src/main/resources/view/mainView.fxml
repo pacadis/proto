@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="mainView" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="607.0" prefWidth="606.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.gui.MainController">
+   <children>
+      <ComboBox fx:id="cbCapacitateMotor" layoutX="469.0" layoutY="297.0" prefHeight="25.0" prefWidth="100.0" />
+      <TableView fx:id="tabelCurse" layoutX="17.0" layoutY="43.0" prefHeight="184.0" prefWidth="311.0">
+        <columns>
+          <TableColumn fx:id="columnIdCurse" prefWidth="56.0" text="Id" />
+          <TableColumn fx:id="columnCapacitateMotorCurse" prefWidth="145.0" text="Capacitate Motor" />
+            <TableColumn fx:id="columnNrParticipantiCurse" prefWidth="110.0" text="Nr.Participanti" />
+        </columns>
+      </TableView>
+      <TableView fx:id="tabelParticipanti" layoutX="18.0" layoutY="288.0" prefHeight="215.0" prefWidth="311.0">
+        <columns>
+          <TableColumn fx:id="columnIdParticipanti" prefWidth="50.0" text="Id" />
+          <TableColumn fx:id="columnNumeParticipanti" prefWidth="144.0" text="Nume Participant" />
+            <TableColumn fx:id="columnCapacitateMotorParticipanti" prefWidth="117.0" text="Capacitate Motor" />
+        </columns>
+      </TableView>
+      <HBox layoutX="18.0" layoutY="519.0" prefHeight="40.0" prefWidth="228.0">
+         <children>
+            <Label prefHeight="26.0" prefWidth="94.0" text="Search by team" />
+            <TextField fx:id="tfCautaParticipant" prefHeight="28.0" prefWidth="133.0" promptText="Nume echipa" />
+         </children>
+      </HBox>
+      <Label layoutX="147.0" layoutY="14.0" prefHeight="28.0" prefWidth="52.0" text="CURSE">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="124.0" layoutY="250.0" prefHeight="28.0" prefWidth="111.0" text="PARTICPANTI">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="377.0" layoutY="115.0" prefHeight="40.0" prefWidth="179.0" text="Inscriere participant">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Label>
+      <Label layoutX="357.0" layoutY="201.0" prefHeight="28.0" prefWidth="52.0" text="Nume">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="353.0" layoutY="250.0" prefHeight="28.0" prefWidth="61.0" text="Echipa">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfNume" layoutX="424.0" layoutY="202.0" promptText="Nume participant" />
+      <TextField fx:id="tfEchipa" layoutX="424.0" layoutY="252.0" promptText="Nume echipa" />
+      <Button fx:id="buttonClear" layoutX="469.0" layoutY="346.0" mnemonicParsing="false" onAction="#handleClear" prefHeight="28.0" prefWidth="100.0" text="CLEAR" />
+      <Label layoutX="351.0" layoutY="296.0" prefHeight="28.0" prefWidth="127.0" text="Capacitate motor">
+         <font>
+            <Font name="System Bold Italic" size="12.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonLogout" layoutX="409.0" layoutY="531.0" mnemonicParsing="false" onAction="#handleLogout" prefHeight="28.0" prefWidth="149.0" text="Logout" />
+      <Button fx:id="buttonSave" layoutX="469.0" layoutY="395.0" mnemonicParsing="false" onAction="#handleSubmit" prefHeight="28.0" prefWidth="100.0" text="SAVE" />
+      <Button fx:id="buttonSearch" layoutX="254.0" layoutY="517.0" mnemonicParsing="false" onAction="#handleSearch" prefHeight="28.0" prefWidth="75.0" text="SEARCH" />
+      <Button fx:id="buttonClearSearch" layoutX="112.0" layoutY="553.0" mnemonicParsing="false" onAction="#handleClearSearch" prefHeight="28.0" prefWidth="214.0" text="CLEAR SEARCH" />
+   </children>
+</AnchorPane>

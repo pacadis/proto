@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="AppClient.Problema11.AppClient.main" target="1.8" />
+      <module name="AppClient.Problema11.AppClient.test" target="1.8" />
+      <module name="Lab1.Problema11.main" target="1.8" />
+      <module name="Lab1.Problema11.test" target="1.8" />
+      <module name="Model.Problema11.Model.main" target="1.8" />
+      <module name="Model.Problema11.Model.test" target="1.8" />
+      <module name="Networking.Problema11.Networking.main" target="1.8" />
+      <module name="Networking.Problema11.Networking.test" target="1.8" />
+      <module name="Persistance.Problema11.Persistance.main" target="1.8" />
+      <module name="Persistance.Problema11.Persistance.test" target="1.8" />
+      <module name="Problema11.AppClient.main" target="1.8" />
+      <module name="Problema11.AppClient.test" target="1.8" />
+      <module name="Problema11.main" target="1.8" />
+      <module name="Problema11.Model.main" target="1.8" />
+      <module name="Problema11.Model.test" target="1.8" />
+      <module name="Problema11.Networking.main" target="1.8" />
+      <module name="Problema11.Networking.test" target="1.8" />
+      <module name="Problema11.Persistance.main" target="1.8" />
+      <module name="Problema11.Persistance.test" target="1.8" />
+      <module name="Problema11.Server.main" target="1.8" />
+      <module name="Problema11.Server.test" target="1.8" />
+      <module name="Problema11.ServerServices.main" target="1.8" />
+      <module name="Problema11.ServerServices.test" target="1.8" />
+      <module name="Problema11.test" target="1.8" />
+      <module name="Server.Problema11.Server.main" target="1.8" />
+      <module name="Server.Problema11.Server.test" target="1.8" />
+      <module name="ServerServices.Problema11.ServerServices.main" target="1.8" />
+      <module name="ServerServices.Problema11.ServerServices.test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

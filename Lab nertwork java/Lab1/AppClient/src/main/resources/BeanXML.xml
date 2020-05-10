@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <util:properties id="jdbcProps1">
+        <prop key="tasks.jdbc.driver">org.sqlite.JDBC</prop>
+        <prop key="tasks.jdbc.url">jdbc:sqlite:/Users/grigo/didactic/MPP/ExempleCurs/2017/Curs3/TaskSpringXML/tasks.db</prop>
+    </util:properties>
+
+    <util:properties id="jdbcProps" location="classpath:bd.config"/>
+
+    <bean id="repoParticipant" class="repos.repositories.ParticipantRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="repoCurssa" class="repos.repositories.CursaRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="repoEchipa" class="repos.repositories.EchipaRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="repoOficiu" class="repos.repositories.OficiuRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="repoInscriere" class="repos.repositories.InscriereRepository">
+        <constructor-arg ref="jdbcProps"/>
+    </bean>
+
+    <bean id="Service" class="service.Service">
+        <constructor-arg ref="repoCurssa"/>
+        <constructor-arg ref="repoEchipa"/>
+        <constructor-arg ref="repoInscriere"/>
+        <constructor-arg ref="repoOficiu"/>
+        <constructor-arg ref="repoParticipant"/>
+    </bean>
+
+</beans>

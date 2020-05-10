@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "QVB21Kdr4R+rcuC8ANLqE7h9aSnLuSS2de1km6TUWu8NBkxmqb65xYDJoEB9oKDCWAkXOOJz0PWewLsZvWbmTA==",
+  "success": true,
+  "projectFilePath": "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Networking\\Networking.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Paul\\.nuget\\packages\\google.protobuf\\3.11.4\\google.protobuf.3.11.4.nupkg.sha512",
+    "C:\\Users\\Paul\\.nuget\\packages\\google.protocolbuffers\\2.4.1.555\\google.protocolbuffers.2.4.1.555.nupkg.sha512",
+    "C:\\Users\\Paul\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
+    "C:\\Users\\Paul\\.nuget\\packages\\system.memory\\4.5.2\\system.memory.4.5.2.nupkg.sha512",
+    "C:\\Users\\Paul\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\Paul\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512"
+  ],
+  "logs": []
+}

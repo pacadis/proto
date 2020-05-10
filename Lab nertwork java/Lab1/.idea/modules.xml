@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppClient/AppClient.Problema11.AppClient.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AppClient/AppClient.Problema11.AppClient.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppClient/AppClient.Problema11.AppClient.test.iml" filepath="$PROJECT_DIR$/.idea/modules/AppClient/AppClient.Problema11.AppClient.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lab1.Problema11.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Lab1.Problema11.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Lab1.Problema11.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Lab1.Problema11.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/Model.Problema11.Model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/Model.Problema11.Model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/Model.Problema11.Model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/Model.Problema11.Model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/Networking.Problema11.Networking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/Networking.Problema11.Networking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/Networking.Problema11.Networking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/Networking.Problema11.Networking.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistance/Persistance.Problema11.Persistance.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistance/Persistance.Problema11.Persistance.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistance/Persistance.Problema11.Persistance.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistance/Persistance.Problema11.Persistance.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problema11.iml" filepath="$PROJECT_DIR$/.idea/modules/Problema11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppClient/Problema11.AppClient.iml" filepath="$PROJECT_DIR$/.idea/modules/AppClient/Problema11.AppClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppClient/Problema11.AppClient.main.iml" filepath="$PROJECT_DIR$/.idea/modules/AppClient/Problema11.AppClient.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AppClient/Problema11.AppClient.test.iml" filepath="$PROJECT_DIR$/.idea/modules/AppClient/Problema11.AppClient.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/Problema11.Model.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/Problema11.Model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/Problema11.Model.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/Problema11.Model.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Model/Problema11.Model.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Model/Problema11.Model.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/Problema11.Networking.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/Problema11.Networking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/Problema11.Networking.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/Problema11.Networking.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Networking/Problema11.Networking.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Networking/Problema11.Networking.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistance/Problema11.Persistance.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistance/Problema11.Persistance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistance/Problema11.Persistance.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistance/Problema11.Persistance.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Persistance/Problema11.Persistance.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Persistance/Problema11.Persistance.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/Problema11.Server.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/Problema11.Server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/Problema11.Server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/Problema11.Server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/Problema11.Server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/Problema11.Server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ServerServices/Problema11.ServerServices.iml" filepath="$PROJECT_DIR$/.idea/modules/ServerServices/Problema11.ServerServices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ServerServices/Problema11.ServerServices.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ServerServices/Problema11.ServerServices.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ServerServices/Problema11.ServerServices.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ServerServices/Problema11.ServerServices.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problema11.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Problema11.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Problema11.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Problema11.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Proto/Proto.iml" filepath="$PROJECT_DIR$/Proto/Proto.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/Server.Problema11.Server.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/Server.Problema11.Server.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Server/Server.Problema11.Server.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Server/Server.Problema11.Server.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ServerServices/ServerServices.Problema11.ServerServices.main.iml" filepath="$PROJECT_DIR$/.idea/modules/ServerServices/ServerServices.Problema11.ServerServices.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ServerServices/ServerServices.Problema11.ServerServices.test.iml" filepath="$PROJECT_DIR$/.idea/modules/ServerServices/ServerServices.Problema11.ServerServices.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/main/main.iml" filepath="$PROJECT_DIR$/src/main/main.iml" />
+    </modules>
+  </component>
+</project>

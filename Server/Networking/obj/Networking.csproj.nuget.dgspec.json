@@ -1,0 +1,115 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Networking\\Networking.csproj": {}
+  },
+  "projects": {
+    "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Model\\Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Model\\Model.csproj",
+        "projectName": "Model",
+        "projectPath": "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Model\\Model.csproj"
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    },
+    "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Networking\\Networking.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Networking\\Networking.csproj",
+        "projectName": "Networking",
+        "projectPath": "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Networking\\Networking.csproj",
+        "packagesPath": "C:\\Users\\Paul\\.nuget\\packages\\",
+        "outputPath": "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Networking\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "C:\\Users\\Paul\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net461"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Model\\Model.csproj": {
+                "projectPath": "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Model\\Model.csproj"
+              },
+              "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Services\\Services.csproj": {
+                "projectPath": "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Services\\Services.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {
+          "dependencies": {
+            "Google.Protobuf": {
+              "target": "Package",
+              "version": "[3.11.4, )"
+            },
+            "Google.ProtocolBuffers": {
+              "target": "Package",
+              "version": "[2.4.1.555, )"
+            },
+            "System.Buffers": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.2, )"
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.4.0, )"
+            },
+            "System.Runtime.CompilerServices.Unsafe": {
+              "target": "Package",
+              "version": "[4.5.2, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Services\\Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Services\\Services.csproj",
+        "projectName": "Services",
+        "projectPath": "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Services\\Services.csproj",
+        "frameworks": {
+          "net461": {
+            "projectReferences": {
+              "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Model\\Model.csproj": {
+                "projectPath": "E:\\Anul2\\Semestrul 2\\MPP\\ProtoBuff\\Server\\Model\\Model.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net461": {}
+      }
+    }
+  }
+}
